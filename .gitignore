@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data: only the small CSV files in data/ are tracked; keep large/extra downloads out
+*.zip
+*.parquet
+data/raw/
+data/A_DeviceMotion_data/
